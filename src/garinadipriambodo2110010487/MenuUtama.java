@@ -4,6 +4,9 @@
  */
 package garinadipriambodo2110010487;
 
+import forms.formMenuUtama;
+import dataset.datasetAnggota;
+
 /**
  *
  * @author garin
@@ -14,7 +17,7 @@ public class MenuUtama {
      * @param args the command line arguments
      */
        public static void main(String[] args) {
-        Anggota obj = new Anggota();
+        /*datasetAnggota obj = new datasetAnggota();
         obj.setIdAnggota("2110487");
         obj.setPassword("12345678");
         obj.setNama("Garin Adi Priambodo");
@@ -22,10 +25,11 @@ public class MenuUtama {
         obj.setAlamat("Banjarbaru");
         obj.setEmail("garinskatel@gmail.com");
         obj.setNoHP("081250541799");
-        
         System.out.println("\n ID Anggota : "+obj.getIdAnggota()+"\n Password : "+obj.getPassword() +"\n Nama : " +obj.getNama() +
                 "\n Jenis Kelamin : " +obj.getJenisKelamin() +"\n Alamat : " +obj.getAlamat() +"\n Email : " +obj.getEmail() +
-                "\n Nomer HP : " +obj.getNoHP());
-    }
-    
+                "\n Nomer HP : " +obj.getNoHP());*/      
+        
+new formMenuUtama().setVisible(true);
+       }
+
 }
